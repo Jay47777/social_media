@@ -1,0 +1,244 @@
+
+  @media screen and (min-width: 300px) and (max-width: 768px) {
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .bacground_photo {
+      /* border: 1px solid gainsboro; */
+      width: 875px;
+      height: 300px;
+      margin-top: -10px;
+      margin-left: -100px;
+      /* margin-top: 100px; */
+      /* border-bottom-right-radius: 15px; */
+      /* border-bottom-left-radius: 15px; */
+    }
+    .profile-main {
+      width: 768px;
+    }
+    .avtar-div {
+      margin-left: 360px;
+      margin-top: 180px;
+      /* margin-bottom: -120px; */
+      /* border: 1px solid gainsboro; */
+      width: 180px;
+      height: 180px;
+      border: 1px solid gainsboro;
+      border-radius: 100px;
+      border: 5px solid white;
+      background-color: yellow;
+    }
+    .avtar-div label {
+      margin-left: 145px;
+      margin-top: 130px;
+    }
+    .cover_photo_btn {
+      border: 3px solid white;
+      width: 200px;
+      overflow: hidden;
+      height: 40px;
+      background-color: white;
+      border-radius: 10px;
+      margin-left: 610px;
+      margin-top: 10px;
+      /* margin-bottom: 100px; */
+    }
+    .username {
+      margin-left: 245px;
+      margin-top: 60px;
+      font-size: 2rem;
+    }
+    .header-div {
+      margin-left: 40px;
+      width: 500px;
+      /* position: -webkit-sticky; */
+    }
+    .info-area {
+      width: 768px;
+      height: fit-content;
+      margin-top: 40px;
+      /* position: sticky;
+      top: 0; */
+      /* background-color: #f2f2f2; */
+      border-radius: 10px;
+      margin-top: 20px;
+      /* border-radius: 30px; */
+    }
+    .float_container {
+      width: 768px;
+      height: fit-content;
+      display:flex;
+      flex-direction: column;
+    }
+    .edit_profile_btn {
+      width: 100px;
+      height: 40px;
+      padding-top: -10px;
+      background-color: #bfbfbf;
+      border-radius: 10px;
+      border: 1px solid gainsboro;
+      font-weight: bold;
+    }
+    .edit_profile_btn_div {
+      width: 120px;
+      height: 45px;
+      /* border: 1px solid gainsboro; */
+      margin-top: -45px;
+      margin-left: 530px;
+    }
+    .logout-div {
+      margin-left: 650px;
+      margin-top: -45px;
+      padding-bottom: 10px;
+    }
+    .logout_btn {
+      width: 40px;
+      height: 40px;
+      background-color: gainsboro;
+      border: 1px solid gainsboro;
+      border-radius: 5px;
+      
+    }
+    .intro-detail {
+      width: 768px;
+      height: fit-content;
+      margin-top: 5px;
+      padding: 5px;
+      padding-bottom: 20px;
+      margin-bottom: 100px;
+      /* padding: 25px 200px; */
+      /* border-radius: 10px; */
+      background-color: #f2f2f2;
+      position: relative;
+
+    }
+    .post_main {
+      width: 768px;
+      height: fit-content;
+      /* margin-left: 170px; */
+      /* border: 1px solid black; */
+      padding-top: 10px;
+      background-color: #f2f2f2;
+      margin-top: -130px;
+      /* float: right; */
+    }
+    .post-sub-main {
+      width: 400px;
+      height: fit-content;
+      margin-left: 150px;
+      /* margin-top: 20px; */
+      border-radius: 10px;
+      border: 1px solid white;
+      background-color: white;
+    }
+    
+    .bio-detail {
+      width: 400px;
+      height: fit-content;
+      /* margin-top: 5px; */
+      margin-left: 150px;
+      background-color: white;
+      border-radius: 10px;
+    }
+    .bio-detail-2 {
+      width: 400px;
+      height: 400px;
+      margin-top: 15px;
+      margin-left: 150px;
+      background-color: white;
+      border-radius: 10px;
+      padding-top: 1px;
+    }
+    .bio-detail-3 {
+      width: 400px;
+      height: 400px;
+      margin-top: 15px;
+      margin-left: 150px;
+      background-color: white;
+      border-radius: 10px;
+      padding-top: 1px;
+      /* position: fixed; */
+    }
+    .photo-main {
+      display: grid;
+      padding: 20px 0;
+      background-color: #f2f2f2;
+      grid-template-columns: auto auto auto ;
+      margin-top: 10px;
+    }
+    .photo-box {
+      width: 720px;
+      height: fit-content;
+      background-color: white;
+      border-radius: 10px;
+      margin-left: 10px;
+    }
+    .p2 {
+      margin-left: 600px;
+      font-size: 16px;
+      margin-top: -40px;
+      font-weight: bold;
+      color: #66a3ff;
+      cursor: pointer;
+    }
+    .friend_main {
+      width: 700px;
+      height: fit-content;
+      padding: 10px;
+      margin-left: 10px;
+      margin-top: 20px;
+      border: 1px solid white;
+      background-color: white;
+      border-radius: 10px;
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+    }
+    .friend-list {
+      width: 320px;
+      height: 100px;
+      border: 1px solid gainsboro;
+      border-radius: 10px;
+      padding: 7px;
+      margin-left: 12px;
+    }
+    .friend-list-sub {
+      width: 310px;
+      height: 80px;
+      /* border: 1px solid gainsboro; */
+      border-radius: 10px;
+    }
+    .friend-error {
+      margin-left: 250px;
+    }
+    .ant-modal {
+      width: 500px;
+    }
+    /* .intro-title{
+      margin-top: -0px;
+    } */
+    .add-intro {
+      margin-left: 380px;
+    }
+    .login-main {
+      width: 400px;
+      height: 450px;
+      margin-top: 80px;
+      margin-left: 180px;
+      border-radius: 10px;
+      background: #ff6666;
+      box-shadow: 5px 5px 10px #4d4d4d;
+    }
+    .reg-main {
+      width: 740px;
+      height: 500px;
+      margin-top: 80px;
+      margin-left: 10px;
+      border-radius: 10px;
+      background: #4d4dff;
+      box-shadow: 5px 5px 10px #4d4d4d;
+    }
+    
+
+  }
+

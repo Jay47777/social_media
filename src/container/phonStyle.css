@@ -1,0 +1,321 @@
+@media screen and (max-width: 500px) {
+  .intro-detail {
+    width: 372px;
+    height: fit-content;
+    margin-top: 5px;
+    /* padding: 25px 200px; */
+    /* border-radius: 10px; */
+    background-color: #f2f2f2;
+  }
+  .profile-main {
+    overflow: hidden;
+    width: 100px;
+  }
+  .info-area {
+    width: 372px;
+  }
+  .info-bac {
+    width: 372px;
+  }
+  .post_main {
+    width: 372px;
+    height: fit-content;
+    /* margin-left: 600px; */
+    /* border: 1px solid black; */
+    /* padding: 6px; */
+    background-color: #f2f2f2;
+    /* margin-top: 5px; */
+    /* float: right; */
+  }
+  .post_render {
+    width: 372px;
+  }
+  .login-main {
+    width: 355px;
+    height: 450px;
+    margin-top: 80px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background: #ff6666;
+    box-shadow: 5px 5px 10px #4d4d4d;
+  }
+  .reg-main {
+    width: 350px;
+    height: 500px;
+    margin-top: 80px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background: #4d4dff;
+    box-shadow: 5px 5px 10px #4d4d4d;
+  }
+  .field-1 {
+    padding-top: 20px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  .field-2 {
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    color: white;
+  }
+  .bacground_photo {
+    /* border: 1px solid gainsboro; */
+    width: 500px;
+    height: 300px;
+    margin-top: -10px;
+    margin-left: -100px;
+    /* margin-top: 100px; */
+    /* border-bottom-right-radius: 15px; */
+    /* border-bottom-left-radius: 15px; */
+  }
+  .profile-main {
+    width: 500px;
+  }
+  .avtar-div {
+    margin-left: 200px;
+    margin-top: 180px;
+    /* margin-bottom: -120px; */
+    /* border: 1px solid gainsboro; */
+    width: 180px;
+    height: 180px;
+    border: 1px solid gainsboro;
+    border-radius: 100px;
+    border: 5px solid white;
+    background-color: yellow;
+  }
+  .avtar-div label {
+    margin-left: 145px;
+    margin-top: 130px;
+  }
+  .cover_photo_btn {
+    border: 3px solid white;
+    width: 35px;
+    overflow: hidden;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 430px;
+    margin-top: 10px;
+    /* margin-bottom: 100px; */
+  }
+  .username {
+    margin-left: 85px;
+    margin-top: 60px;
+    font-size: 2rem;
+    width: 320px;
+  }
+  .header-div {
+    /* margin-left: 40px; */
+    width: 200px;
+    /* position: -webkit-sticky; */
+  }
+  .edit_profile_btn {
+    width: 100px;
+    height: 40px;
+    padding-top: -10px;
+    background-color: #bfbfbf;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    font-weight: bold;
+  }
+  .edit_profile_btn_div {
+    width: 120px;
+    height: 45px;
+    /* border: 1px solid gainsboro; */
+    margin-top: -45px;
+    margin-left: 150px;
+  }
+  .logout-div {
+    margin-left: 280px;
+    margin-top: -45px;
+    padding-bottom: 10px;
+  }
+  .logout_btn {
+    width: 40px;
+    height: 40px;
+    background-color: gainsboro;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+  }
+  .bio-detail {
+    width: 300px;
+    height: fit-content;
+    /* margin-top: 5px; */
+    margin-left: 40px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .bio-detail-2 {
+    width: 300px;
+    height: 400px;
+    margin-top: 15px;
+    margin-left: 40px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 1px;
+  }
+
+  .photoAlbum_gridList {
+    width: 360px;
+    margin-left: 20px;
+    /* border: 1px solid black; */
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 7px;
+    display: grid;
+    grid-template-columns: 130px 130px;
+    grid-template-rows: 110px 110px 110px;
+  }
+  .bio-detail-3 {
+    width: 300px;
+    height: 400px;
+    margin-top: 15px;
+    margin-left: 40px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 1px;
+    /* position: fixed; */
+  }
+  .post-sub-main {
+    width: 300px;
+    height: fit-content;
+    margin-left: 40px;
+    /* margin-top: 20px; */
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: white;
+  }
+  .post-img {
+    width: 300px;
+  }
+  #comment {
+    width: 200px;
+  }
+  .like_span {
+    width: 300px;
+  }
+  .render_comment {
+    width: 100px;
+  }
+  .comment_div {
+    margin-left: 120px;
+  }
+  .photo-main {
+    display: flex;
+    width: 3050px;
+    padding: 20px 0;
+    background-color: #f2f2f2;
+    grid-template-columns: 100px 100px;
+    margin-top: 10px;
+  }
+  .photo-box {
+    width: 350px;
+    height: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    /* margin-left: 10px; */
+  }
+  .img-col {
+    border: 1px solid gainsboro;
+    height: 150px;
+    width: 150px;
+    margin-top: 7px;
+    border-radius: 10px;
+  }
+  .photos-div {
+    width: 350px;
+    display: flex;
+  }
+  .img-row {
+    margin-left: 10px;
+  }
+  .p2 {
+    margin-left: 250px;
+    font-size: 16px;
+    margin-top: -40px;
+    font-weight: bold;
+    color: #66a3ff;
+    cursor: pointer;
+  }
+  .friend_main {
+    width: 400px;
+    height: fit-content;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .friend-error {
+    margin-left: 100px;
+  }
+  .seeAllPhoto {
+    margin-left: 150px;
+  }
+
+  .rmv-p {
+    margin-left: 100px;
+    margin-top: 120px;
+  }
+  .frind_main_div {
+    width: 370px;
+  }
+  .friend_main {
+    width: 350px;
+    height: fit-content;
+    /* padding: 10px; */
+    /* margin-left: 10px; */
+    margin-top: 20px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  .frind_image {
+    margin-left: -8px;
+  }
+  .frind_main_div {
+    height: 360px;
+  }
+  .friend-error {
+    margin-left: 55px;
+    height: 500px;
+  }
+  .friend-list {
+    width: 320px;
+    height: 100px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    /* padding: 7px; */
+    /* margin-left: 12px; */
+  }
+  .friend-list-sub {
+    width: 300px;
+    height: 80px;
+    /* border: 1px solid gainsboro; */
+    /* border-radius: 10px; */
+  }
+  .AcceptRejectDiv {
+    border: 0;
+    margin-left: 120px;
+    margin-top: -20px;
+  }
+  .user_photo Input {
+    width: 200px;
+  }
+  .render_comment {
+    width: 250px;
+  }
+  .float_container {
+    width: 372px;
+  }
+}
